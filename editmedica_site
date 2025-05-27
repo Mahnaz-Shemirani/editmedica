@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EditMedica | Expert Editing Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-[Inter]">
+  <header class="bg-[#002B5B] text-white p-6 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-bold">EditMedica</h1>
+      <nav class="space-x-4">
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#quote" class="hover:underline">Get a Quote</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-12 px-4">
+    <h2 class="text-3xl font-bold text-[#002B5B] mb-4">Expert Editing, Proofreading & Publication Support</h2>
+    <p class="text-lg max-w-2xl mx-auto">We help medical, biomedical, and life science professionals polish their manuscripts for publication in high-impact journals.</p>
+  </section>
+
+  <section id="services" class="bg-gray-50 py-16 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center text-[#002B5B] mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Superficial Editing</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Grammar & spelling correction</li>
+            <li>✓ Sentence flow improvement</li>
+            <li>✓ Clarity & tone checks</li>
+            <li>✓ Track changes provided</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Scientific Deep Editing</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Sentence & paragraph restructuring</li>
+            <li>✓ Logic & coherence enhancement</li>
+            <li>✓ Scientific tone adaptation</li>
+            <li>✓ Includes all services in Superficial Editing</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Submission Support</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Free re-editing for returned manuscripts (style issues only)</li>
+            <li>✓ New quote for major revisions only</li>
+            <li>✓ Formatting to journal style</li>
+            <li>✓ Cover letter writing</li>
+            <li>✓ Fast delivery options</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quote" class="bg-white py-16 px-4">
+    <div class="container mx-auto max-w-3xl">
+      <h2 class="text-3xl font-bold text-center text-[#002B5B] mb-8">Request a Quote</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block text-sm font-medium">Name</label>
+          <input type="text" class="w-full border rounded px-4 py-2" required>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">Email</label>
+          <input type="email" class="w-full border rounded px-4 py-2" required>
+        </div>
+        <div>
+          <label class="block text-sm font-medium">
+            Manuscript Word Count
+            <span class="relative group ml-1 cursor-pointer inline-block align-middle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline-block text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zM9 8a1 1 0 112 0v5a1 1 0 11-2 0V8zm1-4a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" clip-rule="evenodd" />
+              </svg>
+              <div class="absolute z-10 hidden group-hover:block bg-gray-700 text-white text-xs rounded px-2 py-1 mt-1 w-64 shadow-lg">
+                Includes title, abstract, and body. Does not include authors, affiliations, or references.
+              </div>
+            </span>
+          </label>
+          <input type="number" class="w-full border rounded px-4 py-2" required>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium">Additional Information</label>
+          <textarea placeholder="Message for pricing or special request..."rows="5" class="border p-3 rounded-lg w-full"></textarea>
+        </div>
+        <button class="bg-[#002B5B] text-white px-6 py-2 rounded shadow hover:bg-[#004080]">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-[#002B5B] text-white p-6 shadow">
+    <div class="container mx-auto text-center">
+      <p class="mb-2">Contact us: info@editmedica.com</p>
+      <p class="text-sm">&copy; 2025 EditMedica. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
