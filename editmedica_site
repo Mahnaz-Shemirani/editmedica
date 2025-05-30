@@ -15,7 +15,6 @@
       <h1 class="text-4xl font-bold">EditMedica</h1>
       <nav class="space-x-4">
         <a href="#services" class="hover:underline">Services</a>
-        <a href="#sample" class="hover:underline">Example</a>
         <a href="#price" class="hover:underline">Pricing</a>
         <a href="#about" class="hover:underline">About Us</a>
         <a href="#contact" class="hover:underline">Contact</a>
@@ -67,7 +66,7 @@
   </section>
 
   <!-- What We Can Help With Section -->
-<section class="bg-white py-12 px-4">
+<section id="service" class="bg-white py-12 px-4">
   <div class="max-w-7xl mx-auto text-center">
     <h2 class="text-3xl font-bold text-gray-800 mb-6">What We Can Help With</h2>
     <p class="text-gray-600 mb-10">We offer expert editing and proofreading services for various academic and professional documents.</p>
@@ -83,7 +82,7 @@
 </section>
 
   <!-- Editing Examples -->
-<section id="sample" class="py-12 bg-white">
+<section id="service" class="py-12 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Editing Examples</h2>
     <div class="overflow-x-auto">
