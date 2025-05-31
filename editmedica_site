@@ -126,8 +126,6 @@
   </div>
 </section>
 
-
-
 <!-- Text Pricing Section -->
 <section id="price" class="bg-white py-16 px-4 sm:px-6 lg:px-8">
   <div class="max-w-4xl mx-auto text-center">
@@ -150,11 +148,7 @@
   </div>
 </section>
 
-
-
-
-
-  <!-- About Us Section -->
+<!-- About Us Section -->
 <section id="about" class="py-12 bg-white">
   <div class="max-w-6xl mx-auto px-4">
     <div class="text-center mb-10">
@@ -202,7 +196,6 @@
     </form>
   </div>
 </section>
-
 
   <footer class="bg-[#002B5B] text-white p-6 shadow">
     <div class="container mx-auto text-center">
