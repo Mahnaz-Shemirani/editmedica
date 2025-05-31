@@ -1,1 +1,207 @@
-# EditMedica
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EditMedica | Expert Editing Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900 font-[Inter]">
+  <header class="bg-[#002B5B] text-white p-6 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-bold">EditMedica</h1>
+      <nav class="space-x-4">
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#price" class="hover:underline">Pricing</a>
+        <a href="#about" class="hover:underline">About Us</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-12 px-4">
+    <h2 class="text-3xl font-bold text-[#002B5B] mb-4">Expert Editing, Proofreading & Publication Support</h2>
+    <p class="text-lg max-w-2xl mx-auto">We help medical, biomedical, and life science professionals polish their manuscripts for publication.</p>
+  </section>
+
+  <section id="services" class="bg-gray-50 py-16 px-4 scroll-mt-20">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center text-[#002B5B] mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Superficial Editing</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Grammar and punctuation correction</li>
+            <li>✓ Spelling and word usage review</li>
+            <li>✓ Clarity & tone checks</li>
+            <li>✓ Track changes provided</li>
+            <li>✓ Suitable for drafts needing minor edits</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Scientific Deep Editing</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Sentence & paragraph restructuring</li>
+            <li>✓ Logic & coherence enhancement</li>
+            <li>✓ Scientific tone adaptation</li>
+            <li>✓ Includes all services in Superficial Editing</li>
+            <li>✓ Ensures manuscript readiness for submission</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-6 text-center border border-gray-200">
+          <h3 class="text-xl font-semibold mb-4 text-[#002B5B]">Submission Support</h3>
+          <ul class="text-sm text-left space-y-2">
+            <li>✓ Free re-editing for returned manuscripts (Superficial editing only)</li>
+            <li>✓ New quote for major revisions only</li>
+            <li>✓ Formatting to journal style option</li>
+            <li>✓ Cover letter writing option</li>
+            <li>✓ Fast delivery options</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Can Help With Section -->
+<section id="service" class="bg-white py-12 px-4">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">What We Can Help With</h2>
+    <p class="text-gray-600 mb-10">We offer expert editing and proofreading services for various academic and professional documents.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Journal Manuscript</div>
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Thesis</div>
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Dissertation</div>
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Book</div>
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Grant</div>
+      <div class="bg-blue-100 text-blue-800 px-6 py-3 rounded-full shadow-md text-sm font-medium">Brochures</div>
+    </div>
+  </div>
+</section>
+
+  <!-- Editing Examples -->
+<section id="service" class="py-12 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Editing Examples</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border px-4 py-2 text-left font-semibold">Service</th>
+            <th class="border px-4 py-2 text-left font-semibold">Original Text</th>
+            <th class="border px-4 py-2 text-left font-semibold">Example 1</th>
+            <th class="border px-4 py-2 text-left font-semibold">Example 2</th>
+          </tr>
+        </thead>
+        <tbody class="text-sm leading-relaxed">
+          <tr>
+            <td class="border px-4 py-2 font-medium">Superficial editing</td>
+            <td class="border px-4 py-2">
+              The blood sugar level of COVID-19 patients <span style="text-decoration:line-through;color:red">were greater</span> (even though diabetes was omitted in the analysis as a confounding factor), which <span style="text-decoration:line-through;color:red">shows</span> that COVID-19 affects <span style="text-decoration:line-through;color:red">the</span> blood sugar level of <span style="text-decoration:line-through;color:red">patients</span> and <span style="text-decoration:line-through;color:red">can confirm</span> the findings of studies showing beta-cell dysfunction induced by the effect of COVID-19 <span style="text-decoration:line-through;color:red">on</span> ACE2.
+            </td>
+            <td class="border px-4 py-2">
+              The blood sugar level of COVID-19 patients <span style="color:red">was higher</span> (even though diabetes was omitted in the analysis as a confounding factor), which <span style="color:red">suggest</span> that COVID-19 affects <span style="color:red">patient’s</span> blood sugar level and <span style="color:red">supports findings from</span> studies showing beta-cell dysfunction induced by the effect of COVID-19 on ACE2.
+            </td>
+            <td class="border px-4 py-2"></td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2 font-medium">Scientific deep editing</td>
+            <td class="border px-4 py-2">
+              The blood sugar level of COVID-19 patients was <span style="text-decoration:line-through;color:red">greater</span> (even though diabetes <span style="text-decoration:line-through;color:red">was omitted in the</span> analysis as <span style="text-decoration:line-through;color:red">a</span> confounding factor), <span style="text-decoration:line-through;color:red">which shows that COVID-19 affects the blood sugar level of patients and can confirm</span> the findings of studies <span style="text-decoration:line-through;color:red">showing beta-cell dysfunction induced by the effect of COVID-19 on</span> ACE2.
+            </td>
+            <td class="border px-4 py-2">
+              The blood sugar levels in COVID-19 patients were <span style="color:red">higher</span>, even though <span style="color:red">individuals with diabetes were excluded from the analysis to reduce cofounding</span>. This <span style="color:red">suggest</span> that COVID-19 <span style="color:red">may directly influence glucose regulation</span> and <span style="color:red">supports previous findings of β-cell dysfunction linked to the virus’s interaction</span> with ACE2.
+            </td>
+            <td class="border px-4 py-2">
+              <span style="color:red">
+                Increased blood glucose levels were identified in COVID-19 patients following the exclusion of individuals with pre-existing diabetes to control confounding variables. This observation points to a possible disruption of glucose homeostasis directly induced by SARS-CoV-2 infection and supports earlier reports of β-cell impairment related to the virus’s binding to ACE2 receptors.
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Text Pricing Section -->
+<section id="price" class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-6">Pricing & Process</h2>
+
+    <div class="text-lg text-gray-700 leading-relaxed bg-gray-50 p-6 rounded-xl shadow-md">
+      <p class="mb-4">
+        Our standard rate is <span class="font-semibold text-blue-800">900 SEK/hour</span>, with a minimum charge of one hour.
+        Turnaround time varies depending on the length of the document, the type of service requested, and the current queue.
+      </p>
+      <p class="mb-4">
+        For urgent requests, you can choose our <span class="font-semibold text-blue-800">Fast Delivery</span> option.
+        This adds <span class="font-semibold text-blue-800">450 SEK/hour</span> for each additional reviewer involved to accelerate the process.
+      </p>
+      <p class="mb-4">
+        <span class="font-medium">How it works:</span> Send us your manuscript, and we will provide a detailed price estimate along with
+        the expected delivery time. Once payment is received, your work will enter our editing queue and we will begin the process immediately.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-gray-800">About Us</h2>
+    </div>
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      <!-- Image on the left -->
+      <div class="md:w-1/3 w-full">
+        <img src="https://raw.githubusercontent.com/Mahnaz-Shemirani/editmedica/main/images/Irani_Shemirani_Mahnaz.jpg" alt="Dr. Mahnaz Irani Shemirani" class="rounded-2xl shadow-lg w-full h-auto object-cover">
+      </div>
+      <!-- Text on the right -->
+      <div class="md:w-2/3 w-full text-gray-700 text-lg">
+        <p><strong>CEO :</strong> Dr. Mahnaz Irani Shemirani</p>
+        <p class="mt-4 text-gray-700 text-base text-left text-justify">
+          With a background in medicine, Dr. Irani Shemirani holds a Ph.D. in Bioinformatics and Systems Biology from the University of Gothenburg, Sweden. She has authored several peer-reviewed publications, including three as a solo author. Her expertise spans biomedical data analysis, gene expression profiling, data science and manuscript development.
+        </p>
+        <p class="mt-4 text-gray-700 text-base text-left text-justify">
+          She serves as a reviewer for esteemed journals such as <em>PLOS ONE</em> and <em>Current Microbiology</em>, and brings deep academic insight and professional precision to every editing and consulting project.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="bg-white py-12 px-4">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6 text-gray-800">Contact Us</h2>
+    <form action="https://formspree.io/f/xkgbwroa" method="POST" enctype="multipart/form-data" class="space-y-6">
+      <div>
+        <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 border rounded-lg" />
+      </div>
+      <div>
+        <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 border rounded-lg" />
+      </div>
+      <div>
+        <textarea name="message" placeholder="Your Message" rows="5" class="w-full px-4 py-2 border rounded-lg"></textarea>
+      </div>
+      <div>
+        <label class="block mb-2 font-medium">Upload your manuscript</label>
+        <input type="file" name="attachment" class="w-full" />
+      </div>
+      <button type="submit" class="bg-[#002B5B] hover:bg-blue-700 text-white px-6 py-2 rounded-lg">
+        Send
+      </button>
+    </form>
+  </div>
+</section>
+
+  <footer class="bg-[#002B5B] text-white p-6 shadow">
+    <div class="container mx-auto text-center">
+      <p class="text-sm">&copy; 2025 EditMedica. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
